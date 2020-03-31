@@ -12,7 +12,7 @@ class Song
     @album[genre] = []
   end
 
-  def self.count
+  def initialize
     @@count += 1
   end
   
