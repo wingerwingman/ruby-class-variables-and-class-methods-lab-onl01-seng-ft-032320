@@ -24,15 +24,13 @@ class Song
     @@count
   end
   
-  def sort 
-      @@artists.each do |grade, name|
-        @@artists = name.sort
-      end
-    end
+  # def sort 
+  #     @@artists.each do |grade, name|
+  #       @@artists = name.sort
+  #     end
+  #   end
   
-  # def self.genre
-  #   @@genre
-  # end
+
   
 end
 
