@@ -25,8 +25,8 @@ class Song
   end
   
   def sort 
-      @roster.each do |grade, name|
-        @roster[grade] = name.sort
+      @@artists.each do |grade, name|
+        @@artists[artists] = name.sort
       end
     end
   
