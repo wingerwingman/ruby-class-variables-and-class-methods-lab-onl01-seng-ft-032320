@@ -11,10 +11,10 @@ class Song
     @genre = genre
     @@count += 1
     
-    if @artist.include?(artist) == false 
+    if @@artist.include?(@artist) == false 
       @@artists = []
     else
-      @@artists << artist
+      @@artists << @artist
     end
   
     @@genre << genre
@@ -26,7 +26,7 @@ class Song
   
   def sort 
       @@artists.each do |grade, name|
-        @@artists[artists] = name.sort
+        @@artists = name.sort
       end
     end
   
