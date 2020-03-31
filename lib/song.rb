@@ -8,14 +8,10 @@ class Song
     @album = {}
     @artist = artist
     @album[artist] = []
-  end
-  
-  
-  def initialize(genre)
     @genre = genre
     @album[genre] = []
   end
-  
+
   def self.count
     @@count += 1
   end
