@@ -7,7 +7,7 @@ class Song
   
   def initialize(name, artist, genre)
     @name = name
-    @album = {}
+    # @album = {}
     @artist = artist
     # @album[artist] = []
     @@artist << artist
