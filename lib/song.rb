@@ -9,7 +9,8 @@ class Song
     @name = name
 
     @artist = artist
-
+    if @artist.include? (artist) == false 
+      @@artist = []
     @@artist << artist
     
     @genre = genre
