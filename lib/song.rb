@@ -3,15 +3,13 @@ class Song
   
   @@count = 0 
   
-  def initialize(name)
+  def initialize(name, artist, genre)
     @name = name
     @album = {}
-  end
-  
-  def initialize(artist)
     @artist = artist
     @album[artist] = []
   end
+  
   
   def initialize(genre)
     @genre = genre
