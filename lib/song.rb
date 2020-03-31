@@ -10,9 +10,6 @@ class Song
     @album[artist] = []
     @genre = genre
     @album[genre] = []
-  end
-
-  def initialize
     @@count += 1
   end
   
