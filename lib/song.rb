@@ -9,10 +9,10 @@ class Song
     @name = name
     @album = {}
     @artist = artist
-    @album[artist] = []
+    # @album[artist] = []
     @@artist << artist
     @genre = genre
-    @album[genre] = []
+    # @album[genre] = []
     @@count += 1
     @@genre << genre
   end
