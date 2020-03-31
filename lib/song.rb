@@ -10,7 +10,7 @@ class Song
     @artist = artist
     
     @@artist = artist
-    if @artist.include? (artist) == false 
+    if @@artist.include? (artist) == false 
       @@artist = []
     end
     
