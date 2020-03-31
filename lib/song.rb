@@ -10,26 +10,13 @@ class Song
     @artist = artist
     @genre = genre
     @@count += 1
-    
-    if @@artist.include?(@artist) == false 
-      @@artists = []
-    else
-      @@artists << @artist
-    end
-  
+    @@artists << artist
     @@genre << genre
   end
   
   def self.count
     @@count
   end
-  
-  # def sort 
-  #     @@artists.each do |grade, name|
-  #       @@artists = name.sort
-  #     end
-  #   end
-  
 
   
 end
