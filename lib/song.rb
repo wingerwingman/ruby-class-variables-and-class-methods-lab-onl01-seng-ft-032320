@@ -7,6 +7,7 @@ class Song
     @name = name
     @album = {}
     @artist = artist
+    @@artist << artist
     @album[artist] = []
     @genre = genre
     @album[genre] = []
