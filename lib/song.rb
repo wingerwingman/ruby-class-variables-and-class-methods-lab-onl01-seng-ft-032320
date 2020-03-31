@@ -9,10 +9,10 @@ class Song
     @name = name
     @artist = artist
     
-    @@artist = artist
-    if @@artist.include? (artist) == false 
-      @@artist = []
-    end
+    # @@artist = artist
+    # if @@artist.include? (artist) == false 
+    #   @@artist = []
+    # end
     
     @genre = genre
 
